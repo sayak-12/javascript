@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.desg{
+    position: relative;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 8vh;
+    width: 100%;
+    background: linear-gradient(to right, rgb(200, 17, 200), rgb(224, 154, 224),rgb(220, 175, 220));
+}
+.up{
+    position: relative;
+    top: 0vh;
+    left: 0;
+    z-index: 11;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+.head{
+    text-align: center;
+    font-size: 3.5rem;
+    
+}
+.make{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    padding: 0 0 0 3%;
+}
+.suggest1, .suggest2{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.suggest1 h2, .suggest2 h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.swiper-slide{
+    padding: 2%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.attempt{
+    padding: 6px ;
+    border-radius: inherit;
+    outline: none;
+    border: none;
+    background-color: rgb(187, 26, 187);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.stack img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.stack{
+    display: flex;
+    gap: 0.5rem;
+}
