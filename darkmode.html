@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark mode light mode</title>
+    <style>
+        *{
+            transition: 0.3s all;
+        }
+        body{
+            background: white;
+        }
+        h1{
+            color: black;
+        }
+        button{
+            padding: 10px;
+        }
+        .dark{
+            background: #000;
+        }
+        .dark h1{
+            color: white;
+        }
+        .dark button{
+            background-color: white;
+        }
+        
+    </style>
+</head>
+<body >
+    <h1 class="text">
+        This is light mode screen 
+    </h1>
+    <button class="btn">Switch to dark mode</button><br>
+    <input type="text" class="inp1"><br>
+    <input type="text" class="inp2"><br>
+    <button class="submit">Accept value</button>
+    <script src="darkmode.js"></script>
+</body>
+</html>

@@ -13,6 +13,7 @@ dropdownlow.addEventListener("click", () => {
       e.className.includes("active") &&
       document.querySelector(".limlowlist").className.includes("active")
     ) {
+      
     } else if (
       e.className.includes("active") &&
       !document.querySelector(".limlowlist").className.includes("active")
