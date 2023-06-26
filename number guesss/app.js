@@ -1,4 +1,4 @@
-//javascript goes brrr....
+
 const dropdownlow = document.querySelector(".limlow");
 const dropdownhigh = document.querySelector(".limhigh");
 

@@ -3,10 +3,11 @@
 // console.log(parseInt(a)+(b));
 
 // arrays and objects
-// var marketlist = ["a","b","c"];
-// console.log(marketlist);
-// var a = console.log(marketlist.length);
-// console.log(marketlist[1]);
+var marketlist = ["a","b","c"];
+console.log(marketlist[1]);
+marketlist.forEach((element)=>{
+    console.log("This is the marketlist element "+element);
+})
 
 // var details = {
 //   student1: ["mike", "20","Kolkata"],
@@ -50,3 +51,26 @@
 //     console.log("Good morning");
 //     i++;
 // }
+// functions
+// var a=5; 
+// var b=2;
+// function checkprime(x){
+//     if (x==0) {
+//         console.log(" 0 cannot be decided as prime or not prime ");
+//     }
+//     else if (x==1) {
+//         console.log(" 1 cannot be decided as prime or not prime ");
+//     }
+//     else{
+//         for (var i = 2; i <= Math.floor(x/2); i++) {
+//             if (x % i == 0) {
+//                 console.log( x + " is not prime number ");
+//                 return "is not prime number";
+//             }
+//         }
+//         console.log( x + " is a prime number ");
+//         return "is a prime number";
+//     }
+// }
+// var returnstr = checkprime(22);
+// console.log(checkprime(19));
