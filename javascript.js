@@ -74,3 +74,10 @@ marketlist.forEach((element)=>{
 // }
 // var returnstr = checkprime(22);
 // console.log(checkprime(19));
+
+// var a = parseInt(prompt("Enter a number: ")) ;
+
+// var b = parseInt(prompt("Enter another number: ")) ;
+// var randNum= Math.floor(Math.random() * (b - a) ) + a;
+// console.log(randNum);
+
