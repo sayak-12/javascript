@@ -3,11 +3,11 @@
 // console.log(parseInt(a)+(b));
 
 // arrays and objects
-var marketlist = ["a","b","c"];
-console.log(marketlist[1]);
-marketlist.forEach((element)=>{
-    console.log("This is the marketlist element "+element);
-})
+// var marketlist = ["a","b","c"];
+// console.log(marketlist[1]);
+// marketlist.forEach((element)=>{
+//     console.log("This is the marketlist element "+element);
+// })
 
 // var details = {
 //   student1: ["mike", "20","Kolkata"],
@@ -81,3 +81,22 @@ marketlist.forEach((element)=>{
 // var randNum= Math.floor(Math.random() * (b - a) ) + a;
 // console.log(randNum);
 
+
+
+// document object model manipulation = DOM manipulation
+// var sqr = document.querySelectorAll(".sqr");
+// console.log(sqr);
+// var bd = document.querySelector("body");
+// var button = document.querySelector(".btn");
+// for(let index = 0; index < 10; index++) {
+//     var element = document.createElement("div");
+//     element.className = "sqr"+index;
+//     element.textContent = "This is a square of index " + (index+1);
+//     bd.appendChild(element);
+// }
+// var sqrwithid  = document.getElementById("sqr");
+// sqrwithid.innerText  = "This is a changed square.";
+// sqrwithid.innerHTML = "<h1>this is a square.</h1>";
+// button.addEventListener("click", () => {
+//     sqrwithid.classList.toggle("active");
+// })
