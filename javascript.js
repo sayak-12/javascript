@@ -1,6 +1,6 @@
 // var a=5;
 // var b="10";
-// console.log(parseInt(a)+(b));
+// console.log(parseInt(a)+parseInt(b));
 
 // arrays and objects
 // var marketlist = ["a","b","c"];
@@ -12,9 +12,9 @@
 // var details = {
 //   student1: ["mike", "20","Kolkata"],
 //   student2: ["jane", "20","Kolkata"],
-//   student3: ["john", "20","Kolkata"],
+//   student3: ["john", "20","Kolkata"]
 // };
-// console.log(details.student2[0]);
+// console.log(details);
 // var matrix = [
 //     [1,2,3],
 //     [4,5,6],
@@ -24,7 +24,7 @@
 // "day" != "Day"
 // "day" === "day"
 // "day" == "Day"
-//nested if-else statements/ladder
+// nested if-else statements/ladder
 // var time = "night";
 // var loc = "home";
 
@@ -72,6 +72,8 @@
 //         return "is a prime number";
 //     }
 // }
+// var y = checkprime(13);
+// console.log(y);
 // var returnstr = checkprime(22);
 // console.log(checkprime(19));
 
